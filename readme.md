@@ -31,7 +31,25 @@
 
 Coursework for [Udacity's Design of Computer Programs](https://www.udacity.com/course/design-of-computer-programs--cs212).
 
+## Lesson 1
+
+```py
+print(max([3,4,-5,0], key=abs))
+```
+- with `max()`, we can choose which function evaluates the values. In this example, we are using
+the absolute value function, `abs()`, to evaluate those numbers: so -5 has one of the highest 
+absolute values.
+- We apply this concept to our poker program:
+
+```py
+def poker(hands):
+  "Return the best hand"
+  return max(hands, key=hand_rank)
+```
+- we now need to write a function, `hand_rank`, which ranks the hands appropriately
+
 ### Sources and Code Checks
 
 - [https://github.com/wentaocn/Design-of-Computer-Programs/](https://github.com/wentaocn/Design-of-Computer-Programs/)
 - [https://github.com/jrleszcz/design-of-computer-programs](https://github.com/jrleszcz/design-of-computer-programs)
+- [https://github.com/aceofall/Design-of-Computer-Programs-1](https://github.com/aceofall/Design-of-Computer-Programs-1)
