@@ -17,7 +17,7 @@
 		</tr>
 		<tr>
 			<td></td>
-			<td>**Design of Computer Programs**</td>
+			<td><em>Design of Computer Problems</em></td>
 			<td></td>
 			<td></td>
 			<td></td>
