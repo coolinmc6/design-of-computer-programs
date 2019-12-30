@@ -64,7 +64,7 @@ function flush(hand) {
 }
 
 function straight(hand) {
-	return Math.max(...hand) - Math.min(...hand) === 4 && (new Set(hand)).size === 5 ? true : false;
+	return Math.max(...hand) - Math.min(...hand) === 4 && (new Set(hand)).size === 5;
 }
 
 function kind(hand, n) {

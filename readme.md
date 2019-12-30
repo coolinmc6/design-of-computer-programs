@@ -48,6 +48,11 @@ def poker(hands):
 ```
 - we now need to write a function, `hand_rank`, which ranks the hands appropriately
 
+## Lesson 2
+
+- The logic puzzle problems we solved were pretty cool. Here is the code for the [Zebra Problem](), [Floor Problem](), as
+well as [Floor Problem (JavaScript)](https://codepen.io/coolinmc6/pen/qBEPZrM)
+
 ### Sources and Code Checks
 
 - [https://github.com/wentaocn/Design-of-Computer-Programs/](https://github.com/wentaocn/Design-of-Computer-Programs/)

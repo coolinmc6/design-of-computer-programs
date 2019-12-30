@@ -22,8 +22,9 @@ own different pets, drink different beverages and smoke different brands of Amer
 
 import itertools
 
-houses = [1,2,3,4,5]
-orderings = list(itertools.permutations(houses))
+# houses = [1,2,3,4,5]
+# orderings = list(itertools.permutations(houses))
+# print(orderings)
 
 def imright(h1, h2):
   "House h1 is immediately right of h2 if h1-h2 == 1."
