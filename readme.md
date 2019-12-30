@@ -53,6 +53,13 @@ def poker(hands):
 - The logic puzzle problems we solved were pretty cool. Here is the code for the [Zebra Problem](), [Floor Problem](), as
 well as [Floor Problem (JavaScript)](https://codepen.io/coolinmc6/pen/qBEPZrM)
 
+## Lesson 3: Regular Expressions
+
+|Special Character|Example|Match|
+|:---:|:---:|:---:|
+|*|`a*`|`a`, `aa`, `aaa`, etc|
+
+
 ### Sources and Code Checks
 
 - [https://github.com/wentaocn/Design-of-Computer-Programs/](https://github.com/wentaocn/Design-of-Computer-Programs/)
