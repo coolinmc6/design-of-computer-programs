@@ -55,9 +55,16 @@ well as [Floor Problem (JavaScript)](https://codepen.io/coolinmc6/pen/qBEPZrM)
 
 ## Lesson 3: Regular Expressions
 
-|Special Character|Example|Match|
-|:---:|:---:|:---:|
-|*|`a*`|`a`, `aa`, `aaa`, etc|
+|Special Character|Example|Match|Comments|
+|:---:|:---:|:---:|:===:|
+|*|`a*`|`a`, `aa`, `aaa`, etc||
+|?|`a?`|`''`, `a`|optional occurrence|
+|.|`.`|`a`, `b`, `7`, `!`|any single character except empty string|
+|^|`^b`|`ba`, `bb`, `bzadfj`|any string that starts with a `b`|
+|$|`a$`|`bra`, `banana`, `spa`|any string that ends with `a`|
+|''|`''`|`''`|empty string; matches an empty string|
+|a|`a`|`a`|matches what the expression is; just `a`|
+
 
 
 ### Sources and Code Checks
